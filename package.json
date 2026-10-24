@@ -1,0 +1,58 @@
+{
+  "name": "kaur-parneet-ui-garden",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "6.1.13"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.6.20",
+    "@storybook/react": "7.6.20",
+    "@storybook/react-webpack5": "7.6.20",
+    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "13.5.0",
+    "@types/jest": "27.5.2",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "babel-loader": "9.2.1",
+    "babel-preset-react-app": "10.1.0",
+    "jest-styled-components": "7.2.0",
+    "storybook": "7.6.20",
+    "typescript": "4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "react-scripts test --watchAll=false --runInBand",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/src/**/*.tests.tsx"
+    ]
+  }
+}

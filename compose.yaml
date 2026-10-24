@@ -1,0 +1,7 @@
+services:
+  ui-garden:
+    build: .
+    image: kaur-parneet-assignment12
+    container_name: Kaur_Parneet_coding_assignment12
+    ports:
+      - "8083:8083"
